@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-dmSans;
+  }
+}
+
+.custom-swiper-pagination {
+  @apply mt-2 flex justify-start;
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet {
+  @apply bg-yellow-500;
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet-active {
+  @apply bg-primary;
+}
+

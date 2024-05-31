@@ -19,9 +19,6 @@ const NavLinks = ({ navOpen }) => {
           <p className="px-8 py-2">About Us</p>
         </div>
       </div>
-      <div className="mb-5">
-        <button className="rounded-md border bg-primary px-6 py-3 font-semibold">Join Program</button>
-      </div>
     </div>
   );
 };
@@ -31,7 +28,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="fixed z-50 w-full bg-white">
-        <div className="container flex items-center justify-between px-5 py-4 md:px-[150px]">
+        <div className="container mx-auto flex items-center justify-between px-5 py-4 md:px-[150px]">
           <img src={Logo} className="w-24 md:w-28" alt="TimCorp Academy" />
           {/* Mobile Navbar */}
           <div className="flex gap-4 md:hidden">
@@ -44,7 +41,7 @@ const Navbar = () => {
             <p>Home</p>
             <p>Program</p>
             <p>About Us</p>
-            <button className="rounded-md border bg-primary px-3 py-1 font-semibold">Join Program</button>
+            <button className="rounded-md border bg-primary px-3 py-1 font-semibold text-white">Join Program</button>
           </div>
         </div>
       </nav>

@@ -2,6 +2,7 @@ import ArrowRightIcon from './ArrowRightIcon';
 import CheckIcon from './CheckIcon';
 import CircleCheklistIcon from './CircleChecklistIcon';
 import DollarIcon from './DollarIcon';
+import DotIcon from './DotIcon';
 import GripLinesIcon from './GripLinesIcon';
 import XmarkIcon from './XmarkIcon';
 import PhoneIcon from './PhoneIcon';
@@ -16,6 +17,7 @@ export {
   CheckIcon,
   CircleCheklistIcon,
   DollarIcon,
+  DotIcon,
   EmailIcon,
   GripLinesIcon,
   InstagramIcon,
